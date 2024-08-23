@@ -1,0 +1,173 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* section 1 */
+
+.section1 {
+    background-color: #1F2937;
+    margin: 0;
+    padding: 0px 200px; 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 0px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.hero {
+    margin: 100px 0px;
+    display: flex;
+    gap: 50px;
+}
+
+.hero-main {
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.hero-left {
+    align-content: center;
+    width: 450px;
+}
+
+.hero-secondary, .header-link {
+    font-size: 18px;
+    color: #e5e7ebac;
+}
+
+.main-image {
+    flex: 1;
+    width: 400px;
+    height: 250px;
+}
+
+.section1 button {
+    padding: 8px 32px;
+    margin: 16px 0px;
+    color: white;
+    background-color: #3882f6;
+    border-width: 0px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+
+/* section 2 */
+
+.title {
+    text-align: center;
+    margin: 50px;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 130px;
+}
+
+.cluster {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 160px;
+    text-align: center;
+}
+
+.images {
+    width: 160px;
+    height: 160px;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+    margin: 8px;
+}
+
+.image-text {
+    font-size: 18px;
+    color: rgb(131, 131, 131);
+    margin: 0;
+    padding: 0;
+}
+
+/* section 3 */
+
+.section3 {
+    background-color: #E5E7EB;
+    padding: 120px 305px;
+}
+
+.section3 .quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.section3 .name {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: right;
+}
+
+/* section 4 */
+
+.section4 {
+    background-color:#3882f6;
+    margin: 100px 200px;
+    padding: 50px 100px;
+
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.section4 div {
+    color: #E5E7EB;
+}
+
+.section4 .left .call {
+    font-weight: bold;
+    font-size: 24px;
+    color: white;   
+}
+
+.section4 button {
+    padding: 8px 40px;
+    background-color:#3882f6;
+    color: white;
+    border-color:white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* footer */
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    padding: 8px;
+    color: white
+}
